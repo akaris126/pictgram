@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   get 'topics/new'
-  get 'topics/index'
   get 'sessions/new'
   get 'users/new'
   get 'pages/index'
