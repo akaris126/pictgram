@@ -2,6 +2,9 @@ class TopicsController < ApplicationController
   
   def index
     @topics = Topic.all.includes(:favorite_users)
+    
+    # @hoge = Topic.find_by(id: params[:id])
+    # @favorite_count = Favorite.where(topic_id: @hoge.id).count
   end
   
   def new
