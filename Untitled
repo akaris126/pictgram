@@ -1,3 +1,0 @@
-favorites_index GET    /favorites/index(.:format)                                                               favorites#index
-                favorites POST   /favorites(.:format)                                                                     favorites#create
-        favorites_destroy POST   /favorites/destroy(.:format)                                                             favorites#destroy
